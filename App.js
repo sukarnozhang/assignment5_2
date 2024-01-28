@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, Alert } from 'react-native';
 import { RadioButton } from 'react-native-paper'; 
 
+
 const simpleForm = ()  => {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
